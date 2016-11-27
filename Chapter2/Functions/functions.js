@@ -1,15 +1,19 @@
 // Declerations
 
-    //function decleration 
-    function test(){}
+    //function decleration
+    function test() {
+      // function code here!
+    }
 
     // function expression
-    var test2 = function(){}
+    var test2 = function() {
+      // function code here!
+    }
 
 
-// Returning from a function 
+// Returning from a function
 
-    function test(){
+    function test() {
         return "I am returned from a function"
     }
 
@@ -17,14 +21,14 @@
 
 // Supplying parameters to functions
 
-    function test(parameter){
+    function test(parameter) {
         return parameter
     }
 
 // function scope
 
     // cant use variables outisde of the the function when declared
-    function test(){
+    function test() {
         var name ="test"
         console.log(name) //test
     }
@@ -32,7 +36,7 @@
     console.log(name) //undefined;
 
     function test(name){
-        console.log(name) 
+        console.log(name)
     }
 
     test("test") //test

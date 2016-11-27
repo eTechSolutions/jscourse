@@ -1,0 +1,22 @@
+{
+  "name": "jscourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/envman/jscourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/envman/jscourse/issues"
+  },
+  "homepage": "https://github.com/envman/jscourse#readme",
+  "dependencies": {
+    "assert": "^1.4.1"
+  }
+}

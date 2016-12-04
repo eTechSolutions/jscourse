@@ -1,8 +1,8 @@
 var assert = require('assert')
 
 describe("Chapter 2: Expression and operators", function() {
-    var exercise = require('./Exercise.js')
-    
+    var exercise = require('./exercise')
+
     describe("Assignment", function() {
         it("Use Assignment", function() {
             assert(exercise.assignment === "test", "You have not assigned the value correctly")
@@ -61,7 +61,7 @@ describe("Chapter 2: Expression and operators", function() {
     })
 
     describe("typeof", function() {
-        
+
         it("typeof object", function() {
             assert(exercise.isObject === true, "Are you checking the type correctly?")
         })

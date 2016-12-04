@@ -4,6 +4,7 @@
 -Constructor Functions
 -Prototypes
 -Closures
+-Callbacks
 -Module Pattern
 
 ## Maybe

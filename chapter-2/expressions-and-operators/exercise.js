@@ -1,5 +1,5 @@
 excerciseResult = {}
-// Assignment 
+// Assignment
 excerciseResult.assignment _ "test";
 
 // Comparison
@@ -18,7 +18,7 @@ excerciseResult.strictEquals = 5 _ "5";
 
 // Logical
 
-//should be true 
+//should be true
 excerciseResult.shouldBeTrue = true _ true;
 excerciseResult.shouldBeFalse = true _ false;
 
@@ -32,7 +32,7 @@ excerciseResult.object2 =  undefined _ {};
 
 excerciseResult.falseValue = _true;
 
-// Conditional 
+// Conditional
 // objectConditional must equal {}
 // the blank must be a boolean
 excerciseResult.objectConditional = _ ? {} : undefined;
@@ -44,4 +44,4 @@ excerciseResult.isBoolean =  _ excerciseResult.falseValue _ 'boolean';
 
 excerciseResult.isString = _ excerciseResult.assignment _ 'string';
 
-module.exports = {}
+module.exports = excerciseResult

@@ -8,13 +8,24 @@ him implement a Scheme(a Lisp Dialect)
 
 Netscapes Management decided that a scripting language had to have similar syntax to Java so the prototype was born
 
+Javascript runs in a just in time compliation.
 
-Javascript runs in a just in time compliation. 
+## Javascript != C#
+-Its different, don't assume things work the same
+-Case & Styles should be different!
+--properies are lower Case
+-Not Compiled (can be minified!)
+-Scope Works Differently
+-No Types
+-Boolean Logic works differently (truthy/falsy!)
 
-
-# Usefull links
+## Usefull links
 
 [w3c's Short History of JavaScript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript)
- 
-
 [SpeakingJs: How JavaScript Was Created](http://speakingjs.com/es5/ch04.html)
+
+## Setup
+- node version
+- npm (show npmjs.?)
+- npm install (mocha -g)
+- run example test file
